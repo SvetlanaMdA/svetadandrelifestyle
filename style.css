@@ -1,0 +1,68 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+@import url("components/list-inline.css");
+
+
+body {
+	font-family: 'Lora';
+	font-size: 18px;
+}
+
+h1, h2, H3 {
+	font-family: 'Roboto+Slab';
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: #14276A;
+}
+
+
+.box {
+	background: #2596be;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px;
+	width: auto;
+	margin-top: 30px;
+	color: white;
+	font-family: 'Lora';
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 50px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
+#avatar {
+	text-align: center;
+}
